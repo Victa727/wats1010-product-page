@@ -4,8 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
-             engines. -->
+        <meta name="description" content="Need to build an awesome website? 
+                                          Come to the API Superstore!  
+                                          The place to find all the Google Pages API could ever want!  
+                                          Organized to best fit your needs! We save you time…if not money!">
+        <meta name="author" content="Victor Aguiluz">
+        <link rel="icon" href="api.ico">  <!-- Replace favicon.ico with api.ico  -->
+       
         <title>API Superstore</title>
         <!-- Bootstrap CSS Framework -->
         <!-- You can remove the ``link`` tags below if you don't want to use
@@ -13,42 +18,176 @@
              to reference the resources and the Bootstrap official
              documentation: http://getbootstrap.com.
 
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
+             Copied the lastest version of boot strap into /assets/bootstrap. -->
+      
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css"> 
+        <link rel="stylesheet" href="main.css">
+      
+      
+      
+       <!-- jQuery -->
+      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+      
         <!-- End Bootstrap CSS Framework -->
 
-        <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="favicon" href="favicon.ico">
+        
+ 
 
     </head>
     <body>
-        <!-- Note: If you do not see a lamp icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
+      <div class="nav-row row">
+        <div class="nav-menu col-sm-12">      
+        <img src="assets/logos/api_superstore_sqlogo_bg.png" width="75px" height="75px">
+        <a class="sidebar-button navbtn btn btn-default" href="#" role="button">Register</a>
+        <a class="sidebar-button2 navbtn2 btn btn-default" href="#" role="button">Login</a>
+        </div>
+      </div>
+    
+      
+      <div class="row">
+        <div class="sub-menu col-sm-12">      
+          <ul class="sub-menu-links list-inline">
+            <li><a href="#about">About</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="page-title col-sm-12">      
+         <img src="api_superstore_logo_by.png" >
+        </div>
+      </div>
+      
+      <div class="container">
+      <div class="content-row row">
+        <div class="main-content col-sm-8"> 
+          <div class="video">
+            <h2>Overview</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo?rel=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div id="about" class="about">
+            <h2>About</h2>
+            <p>At the API Superstore our mission to help you make stunning help our customers create build stunning web sites.  
+We gather all the API available on the world wide web.  You tell what your website needs, we provide the APIs to make it happen.</p>
+          </div>
+          <div id="testimonials" class="testimonials">
+            <h2>Testimonials</h2>
+            <img class="img-circle" src="assets/misc/happybutton.jpeg" width="120"><p>"API Superstore take me straight to my happy place."</p>
+            <img class="img-circle" src="assets/misc/Genghis_khan.jpg" width="120"><p>"Google's Places API allows me to show the latest testimonials from happy customers who are rating my business. I now have to power to conquer my competition...'Genghis Khan'."</p>
+          </div>
+          <div id="contact-us" class="contact-us">
+            <h2>Contact Us</h2>
+            <div class="input-group">
+              <div class="form-group"> 
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <input name="name" placeholder="Name" class="form-control" type="text">
+                </div>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                  <input name="email" placeholder="Email" class="form-control" type="text">
+                </div>
+              </div> <!-- End form group -->
+              <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+            </div> <!-- End input group -->
+        
+          </div>
+        </div>
+        <div class="sidebar-content col-sm-4">      
+          <a class="sidebar-button btn btn-default" href="#" role="button">Free</a><br>
+          <a class="sidebar-button2 btn btn-default" href="#" role="button">Download</a>
+          <div class="creator">
+            <h2>API Creator</h2>
+            <img class="website-logo" src="assets/logos/apiimagecloud.jpg" width="120">
+            <p>Google is the leading search engine in the world and provides their employees with amazing perks in exchange for never leaving the Google campus.</p>
+          </div>
+          <div id="features" class="features">
+            <h2>Features</h2>
+            <p><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Show the average rating for a business with star icons.</p>
+            <p><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Show reviews written by past customers who have visited your business.</p>
+            <p><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Works with Android, iOS, and JavaScript.</p>
+          </div>
+          <div class="resources">
+            <h2>Additional Resources</h2>
+            <p><span class="glyphicon glyphicon-link" aria-hidden="true"></span> <a href="https://developers.google.com/apis-explorer/#p/">Guide to Google APIs</a> These are the Google APIs for sale at the API Superstore</p>
+            <p><span class="glyphicon glyphicon-link" aria-hidden="true"></span> <a href="http://www.google.com/">Google.com</a> Learn more about Google APIs at their company website.</p>
+          </div>
+        </div>
+      </div>
+      <div class="examples content-row row">
+        <h2>Clients of the API Superstore</h2>
+        <div class="website-logo-group">
+          <img class="website-logo" src="assets/logos/logo1.png" width="120">
+          <img class="website-logo" src="assets/logos/logo2.png" width="120">
+          <img class="website-logo" src="assets/logos/logo3.png" width="120">
+          <img class="website-logo" src="assets/logos/logo4.png" width="120">
+        </div>
+      </div>
+      </div>  
+    
+      <footer class="row">
+        <div class="main-footer row">
+          <div class="col-sm-4">
+            <h2>Contact Information</h2>
+            <ul>
+              <li>720 N. 10th St.</li>
+              <li>Renton, WA, 98057</li>
+              <li>206-555-4444</li>
+              <li>info@apisuperstore.com</li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <h2>About Us</h2>
+            <ul>
+              <li><a href="">Job Openings</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Store</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <h2>More Information</h2>
+            <p>If you like this API, be sure to check out our entire selection of 1,500 other APIs here at the store. If you have any questions, don't hesitate to give us a call.</p>
+          </div>
+        </div>
+        <div class="sub-footer row">
+        <p>Website by Victor Aguiluz</p>
+        </div>
+      </footer>
+ 
+       
+    </div>
+    
+    <!--
+    <div class="container">
 
-        <!-- TODO: Create an area to put the explainer video. -->
+      <div class="starter-template">
+        <h1>Bootstrap starter template</h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      </div>
 
-        <!-- TODO: Create an area to put the long product description. -->
+    </div><!-- /.container -->
 
-        <!-- TODO: Create an area to put customer testimonials. -->
 
-        <!-- TODO: Create an area to show features. -->
-
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
-
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
-
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
-    </body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
+
+

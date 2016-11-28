@@ -6,3 +6,196 @@ body {
     padding-bottom: 20px;
     color: green;
 }
+
+banner {
+     background-image:(../assets/logos/api_superstore_logo_bg.png);
+     background-position: center center;
+     background-size: cover;
+   
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+nav-row {
+  position: relative;
+}
+
+nav-row {
+  position: relative;
+}
+
+.nav-menu {
+  background-color: rgb(44,55,59);
+  background-color: rgb(51,103,214);
+  color: white;
+}
+
+.nav-menu img {
+  padding: 10px;
+}
+ 
+.navbtn {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  border: none;
+}
+
+.navbtn2 {
+  position: absolute;
+  right: 110px;
+  top: 20px;
+  border: none;
+}
+
+.sub-menu {
+  height: 80px;
+  background-color: rgb(235,235,235);
+  background-color: rgb(66,133,244);
+}
+
+.page-title {
+  background-image: url("assets/misc/symphony.png");
+  height: 80px;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.sub-menu-links {
+  padding: 30px;
+}
+
+.sub-menu-links a {
+  padding: 15px;
+  text-transform: uppercase;
+  color:white;
+  font-size: 1.4em;
+}
+
+.content-row {
+  background-color: rgb(235,235,235);
+  padding-top: 25px;
+}
+
+/* Main Content classes */
+
+.video {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+.about {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+.testimonials {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+.testimonials p {
+  height: 130px;
+  margin: 10px;
+}
+
+.testimonials img {
+  float: left;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+.contact-us {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+.contact-us .input-group {
+  padding: 10px;
+}
+
+.examples {
+  background-image: url("assets/misc/ignasi-pattern.png");
+  padding: 10px;
+  margin: 10px;
+  border: 10px solid white;
+}
+
+/* Sidebar classes */
+
+.sidebar-button {
+  padding: 10px;
+  margin: 5px;
+  text-transform: uppercase;
+  background-color: rgb(44,55,59);
+  color: white;
+  border: none;
+}
+
+.sidebar-button2 {
+  padding: 10px;
+  margin: 5px;
+  text-transform: uppercase;
+  background-color: rgb(0,199,228);
+  color: white;
+  border: none;
+}
+
+.creator {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.features {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.resources {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Bottom content */
+
+.website-logo-group {
+  margin: auto;
+  width: 75%;
+}
+
+.website-logo {
+  margin: 10px 35px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* Footer classes */
+
+.main-footer {
+  background-color: rgb(44,55,59);
+  color: white;
+  padding: 20px 50px;
+}
+
+.main-footer ul li {
+  list-style-type: none;
+}
+
+.sub-footer {
+  background-color: rgb(32,40,41);
+  color: white;
+  padding: 20px 50px;
+}
