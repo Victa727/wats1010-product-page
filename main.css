@@ -4,17 +4,17 @@
 body {
     padding-top: 30px;
     padding-bottom: 20px;
-    color: green;
+    color: black;
 }
 
 banner {
      background-image:(../assets/logos/api_superstore_logo_bg.png);
      background-position: center center;
-     background-size: cover;
+     background-size: cover; 
    
 }
 
-.starter-template {
+.main {
   padding: 40px 15px;
   text-align: center;
 }
@@ -28,8 +28,8 @@ nav-row {
 }
 
 .nav-menu {
-  background-color: rgb(255,255,0);
-  background-color: rgb(0,255,0);
+  
+  background-color: sandybrown;
   color: white;
 }
 
@@ -138,7 +138,7 @@ nav-row {
   margin: 5px;
   text-transform: uppercase;
   background-color: rgb(44,55,59);
-  color: white;
+  color: purple;
   border: none;
 }
 
@@ -147,7 +147,7 @@ nav-row {
   margin: 5px;
   text-transform: uppercase;
   background-color: rgb(0,199,228);
-  color: white;
+  color: purple;
   border: none;
 }
 
